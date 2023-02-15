@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Nosa</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/beffa0ce68.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Nosa Cart</h1>
+    </header>
+   
+    <!-- !====================== -->
+    <div class="right">
+        <div class="shopping-card">
+            <div class="back-bag">
+                <div class="back-img">
+                    <img src="./IMG/photo1.png" alt="back-bag">
+                </div>
+                <div class="back-bag__name">
+                    <h3>Vintage Backbag</h3>
+                    <p class="price"> <strong id="bag_price">$25.99</strong> <sub>$34.99</sub> </p>
+                </div>
+                <div class="quantity bag">
+                    <div class="quantity_counter">
+                        <button id="min-bag"><i class=" fa-solid fa-minus"></i></button>
+                        <p id="bag_quantity">0</p>
+                        <button id="max-bag"><i class=" fa-solid fa-plus"></i></button>
+
+
+                    </div>
+                    <div class="remove-btn">
+                        <button type="button" class="btn btn-danger">Remove</button>
+                    </div>
+                    <div class="product_total">
+                        <p>Product Total: <span id="spans">0</span></p>
+                    </div>
+                </div>
+            </div>
+            <!-- !================ -->
+            <div class="back-bag">
+                <div class="back-img">
+                    <img src="./IMG/photo2.png" alt="back-bag">
+                </div>
+                <div class="back-bag__name">
+                    <h3>Levi Shoes</h3>
+                    <p class="price"> <strong id="shoes_price">$45.99</strong> <sub>$54.99</sub> </p>
+                </div>
+                <div class="quantity bag">
+                    <div class="quantity_counter">
+
+                        <button id="min-shoes"><i class="  fa-solid fa-minus"></i></button>
+                        <p id="shoes_quantity">0</p>
+                        <button id="max-shoes"><i class=" fa-solid fa-plus"></i></button>
+
+                    </div>
+                    <div class="remove-btn">
+                        <button type="button" class="btn btn-danger">Remove</button>
+                    </div>
+                    <div class="product_total">
+                        <p>Product Total: <span id="spans">0</span></p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- !================ -->
+            <div class="back-bag">
+                <div class="back-img">
+                    <img src="./IMG/photo3.jpg" alt="back-bag">
+                </div>
+                <div class="back-bag__name">
+                    <h3>Antique Clock</h3>
+                    <p class="price"> <strong id="clock_price">$74.99</strong> <sub>$94.99</sub> </p>
+                </div>
+                <div class="quantity bag">
+                    <div class="quantity_counter">
+
+                        <button id="min-clock"><i class=" fa-solid fa-minus"></i></button>
+                        <p id="clock_quantity">0</p>
+                        <button id="max-clock"><i class=" fa-solid fa-plus"></i></button>
+
+                    </div>
+                    <div class="remove-btn">
+                        <button type="button" class="  btn btn-danger">Remove</button>
+                    </div>
+                    <div class="product_total">
+                        <p>Product Total: <span id="spans">0</span></p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="total">
+
+                <div class="total_sub ">
+                    <p>Subtotal</p>
+                    <p id="total_sub">$0</p>
+                </div>
+                <div class="total_tax">
+                    <p>Tax(%18)</p>
+                    <p id="total_tax">$0</p>
+                </div>
+
+                <div class="total_var">
+                    <p>Shipping</p>
+                    <p id="total_var">$0</p>
+                </div>
+                <div class="total_cost">
+                    <p>Total</p>
+                    <p id="total_cost">$0</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
